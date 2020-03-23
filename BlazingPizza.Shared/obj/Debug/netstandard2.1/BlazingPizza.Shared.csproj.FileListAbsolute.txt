@@ -1,0 +1,11 @@
+/Users/kp/Development/blazor-workshop/save-points/00-Starting-point/BlazingPizza.Shared/bin/Debug/netstandard2.1/BlazingPizza.Shared.deps.json
+/Users/kp/Development/blazor-workshop/save-points/00-Starting-point/BlazingPizza.Shared/bin/Debug/netstandard2.1/BlazingPizza.Shared.dll
+/Users/kp/Development/blazor-workshop/save-points/00-Starting-point/BlazingPizza.Shared/bin/Debug/netstandard2.1/BlazingPizza.Shared.pdb
+/Users/kp/Development/blazor-workshop/save-points/00-Starting-point/BlazingPizza.Shared/bin/Debug/netstandard2.1/BlazingPizza.ComponentsLibrary.dll
+/Users/kp/Development/blazor-workshop/save-points/00-Starting-point/BlazingPizza.Shared/bin/Debug/netstandard2.1/BlazingPizza.ComponentsLibrary.pdb
+/Users/kp/Development/blazor-workshop/save-points/00-Starting-point/BlazingPizza.Shared/obj/Debug/netstandard2.1/BlazingPizza.Shared.csprojAssemblyReference.cache
+/Users/kp/Development/blazor-workshop/save-points/00-Starting-point/BlazingPizza.Shared/obj/Debug/netstandard2.1/BlazingPizza.Shared.AssemblyInfoInputs.cache
+/Users/kp/Development/blazor-workshop/save-points/00-Starting-point/BlazingPizza.Shared/obj/Debug/netstandard2.1/BlazingPizza.Shared.AssemblyInfo.cs
+/Users/kp/Development/blazor-workshop/save-points/00-Starting-point/BlazingPizza.Shared/obj/Debug/netstandard2.1/BlazingPizza.Shared.csproj.CopyComplete
+/Users/kp/Development/blazor-workshop/save-points/00-Starting-point/BlazingPizza.Shared/obj/Debug/netstandard2.1/BlazingPizza.Shared.dll
+/Users/kp/Development/blazor-workshop/save-points/00-Starting-point/BlazingPizza.Shared/obj/Debug/netstandard2.1/BlazingPizza.Shared.pdb

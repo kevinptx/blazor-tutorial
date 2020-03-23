@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{29F85A53-A43B-4B5F-8C11-4FC62CDF19D6}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BlazingPizza.Client/Shared/AddressEditor.razor">
+    <Files>
+      <File FileName="BlazingPizza.Client/Pages/Index.razor" Line="22" Column="7" />
+      <File FileName="BlazingPizza.Client/Pages/Checkout.razor" Line="4" Column="44" />
+      <File FileName="BlazingPizza.Client/OrderState.cs" Line="1" Column="1" />
+      <File FileName="BlazingPizza.Client/Shared/AddressEditor.razor" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BlazingPizza" expanded="True">
+            <Node name="BlazingPizza.Client" expanded="True">
+              <Node name="Pages" expanded="True" />
+              <Node name="Shared" expanded="True">
+                <Node name="AddressEditor.razor" selected="True" />
+              </Node>
+            </Node>
+            <Node name="BlazingPizza.ComponentsLibrary" expanded="True" />
+            <Node name="BlazingPizza.Server" expanded="True" />
+            <Node name="BlazingPizza.Shared" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.BlazingPizza.Server PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
