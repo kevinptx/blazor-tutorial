@@ -4,29 +4,50 @@
 @inject NavigationManager NavigationManager
 
     <div class="main">
-        <div class="checkout-cols">
-            <div class="checkout-order-details">
-                <h4>Review order</h4>
-                <OrderReview Order="OrderState.Order" />
+        <EditForm Model="OrderState.Order.DeliveryAddress" OnValidSubmit="@PlaceOrder">
+            <div class="checkout-cols">
+                <div class="checkout-order-details">
+                    <h4>Review order</h4>
+                    <OrderReview Order="OrderState.Order" />
+                </div>
+
+                <div class="checkout-delivery-address">
+                    <h4>Deliver to...</h4>
+                    <AddressEditor Address="OrderState.Order.DeliveryAddress" />
+                </div>
             </div>
 
-            <div class="checkout-delivery-address">
-                <h4>Deliver to...</h4>
-                <AddressEditor Address="OrderState.Order.DeliveryAddress" />
-            </div>
-        </div>
+            <DataAnnotationsValidator />
 
-        <button class="checkout-button btn btn-warning" @onclick="PlaceOrder">
+        <button class="checkout-button btn btn-warning" type="submit" disabled="@(!IsSubmitting ? null : "disabled")">
             Place order
         </button>
+        </EditForm>
+
     </div>
 
 @code {
+
+    bool IsSubmitting { get; set; } = false;
+
     async Task PlaceOrder()
     {
-        var newOrderId = await HttpClient.PostJsonAsync<int>("orders", OrderState.Order);
-        OrderState.ResetOrder();
+        IsSubmitting = true;
+        try
+        {
 
-        NavigationManager.NavigateTo($"myorders/{newOrderId}");
+            var newOrderId = await HttpClient.PostJsonAsync<int>("orders", OrderState.Order);
+            OrderState.ResetOrder();
+
+            NavigationManager.NavigateTo($"myorders/{newOrderId}");
+        }
+        catch
+        {
+            //do nothing
+        }
+        finally
+        {
+            IsSubmitting = false;   
+        }
     }
 }

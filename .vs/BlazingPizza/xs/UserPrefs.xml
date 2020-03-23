@@ -1,20 +1,20 @@
 ﻿<Properties StartupConfiguration="{29F85A53-A43B-4B5F-8C11-4FC62CDF19D6}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="BlazingPizza.Client/Shared/AddressEditor.razor">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BlazingPizza.Client/Pages/Checkout.razor">
     <Files>
-      <File FileName="BlazingPizza.Client/Pages/Index.razor" Line="22" Column="7" />
-      <File FileName="BlazingPizza.Client/Pages/Checkout.razor" Line="4" Column="44" />
+      <File FileName="BlazingPizza.Client/Shared/AddressEditor.razor" Line="26" Column="25" />
       <File FileName="BlazingPizza.Client/OrderState.cs" Line="1" Column="1" />
-      <File FileName="BlazingPizza.Client/Shared/AddressEditor.razor" Line="1" Column="1" />
+      <File FileName="BlazingPizza.Client/Pages/Index.razor" Line="1" Column="1" />
+      <File FileName="BlazingPizza.Client/Pages/Checkout.razor" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="BlazingPizza" expanded="True">
             <Node name="BlazingPizza.Client" expanded="True">
-              <Node name="Pages" expanded="True" />
-              <Node name="Shared" expanded="True">
-                <Node name="AddressEditor.razor" selected="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="Checkout.razor" selected="True" />
               </Node>
+              <Node name="Shared" expanded="True" />
             </Node>
             <Node name="BlazingPizza.ComponentsLibrary" expanded="True" />
             <Node name="BlazingPizza.Server" expanded="True" />
